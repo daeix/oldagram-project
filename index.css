@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    display:flex;
+    justify-content: space-between;
+    height:55px;
+    padding-top:15px;
+    border-bottom: 1px solid #d8dde6
+}
+
+.under-heading{
+    
+    padding-top:35px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.likes-comment, .icons-all, .main-picture, .under-heading, .heading{
+    width:370px;
+    margin: 0 auto;
+}
+
+.logo{
+    width:145px;
+    height:auto;   
+}
+
+.avatar, vangogh-logo{
+   height:35px;
+   border-radius: 50%;   
+}
+
+.avatar{
+    width:auto;
+    margin-top:5px;
+    
+}
+
+.vangogh-logo{
+    width:35px; 
+}
+
+h2{
+    font-size: 14.5px;
+    line-height: 16px; 
+}
+
+p{
+    font-size: 13px; 
+    line-height: 1px;  
+}
+
+.full-name{
+   padding:0 15px;
+}
+
+.main-picture{
+    height: auto;  
+}
+
+.picture{
+    width:370px;
+    height:400px;
+}
+
+
+.icons-all{
+   padding-top:10px
+}
+
+.icons{
+   width:35px;
+   height:35px 
+}
+
+
+.likes-number{
+    font-weight: bold;
+    font-size:15px
+}
+
+.comment{
+    font-weight: 25px;
+    padding-top:8px;
+    font-size:18px
+}
+
+.icons:hover{
+    cursor:pointer;
+    background-color: orangered;
+    border-radius: 25%;  
+}

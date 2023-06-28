@@ -1,0 +1,44 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+     <section class="section-one">
+      <div class="heading">
+            <img class="logo" src="images/logo.png">
+            <img class="avatar" src="images/user-avatar.png">
+      </div>
+     </section>
+     <section class="section-two">
+      <div class="under-heading">
+          <img class="vangogh-logo" src="images/avatar-vangogh.jpg">
+           <div class="full-name">
+           <h2>Vincent van Gogh</h2>
+           <p>Zundert, Netherlands</p>
+           </div>
+          </div>
+      </div>
+    </section>
+    <section class="section-three">
+          <div class="main-picture">
+           <img onclick="addLike()" id="picture" class="picture" src="images/post-vangogh.jpg">
+          </div>
+    </section>
+    <section class="section-four">
+          <div class="icons-all">
+              <img class="icons" src="images/icon-heart.png">
+              <img class="icons" src="images/icon-comment.png">
+              <img class="icons" src="images/icon-dm.png">
+          </div>
+          <div class="likes-comment">
+            <p class="likes-number">
+            <span id="likes-count" >7</span> likes
+            </p>
+            <p class="comment">
+            <strong>vincey1853</strong> just took few muschrooms lol
+            </p>
+         </div>
+    </section>
+        <script src="index.js"></script>
+    </body>
+</html>
